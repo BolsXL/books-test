@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-wrap {
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+}
+
+.title {
+    text-align: center;
+}
+
+.library {
+    place-self: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.books {
+    list-style-type: none;
+    text-align: center;
+}
