@@ -13,16 +13,36 @@
 
 .title {
     text-align: center;
+    margin: 1rem;
 }
 
 .library {
     place-self: center;
 
-    display: flex;
-    flex-direction: column;
+    display: grid;
 }
 
 .books {
+    display: flex;
+    flex-wrap: wrap;
+
     list-style-type: none;
+    place-self: center;
+    justify-content: space-evenly;
+}
+
+.books > li {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    box-shadow: -2px 2px black;
+    width: 22ch;
+    height: 11ch;
     text-align: center;
+}
+
+.new-book {
+    width: 60%;
+    place-self: center;
+    margin: 1rem;
 }
