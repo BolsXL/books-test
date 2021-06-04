@@ -20,14 +20,4 @@ function addBookToLibrary(book) {
     printLibrary();
 }
 
-function printLibrary() {
-    books.innerHTML = "";
-    myLibrary.forEach(book => {
-        let newListItem = document.createElement('li');
-        let text = `${book.title} by ${book.author}. (${book.pages} pages) [${book.read}]`
-        newListItem.textContent = text;
-        books.appendChild(newListItem);
-    });
-}
-
 // TESTING STUFF

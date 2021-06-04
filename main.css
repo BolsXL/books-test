@@ -33,12 +33,18 @@
 
 .books > li {
     margin-bottom: 1rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
     padding: 0.5rem;
     border: 1px solid black;
     box-shadow: -2px 2px black;
-    width: 22ch;
-    height: 11ch;
+    width: 32ch;
+    height: 16ch;
     text-align: center;
+}
+
+.books > li button {
+    margin: 0.25rem;
 }
 
 .new-book {
